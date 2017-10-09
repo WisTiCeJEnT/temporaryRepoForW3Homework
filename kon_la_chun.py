@@ -3,7 +3,7 @@ n = int(input())
 inpl=[]
 ans = 0
 a = b = -1
-for i in range (0,n):
+for i in range (n):
     inpl.append(int(input()))
     if(inpl[len(inpl)-1]>8):
         print("error")
